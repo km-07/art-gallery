@@ -1,0 +1,96 @@
+*{
+    font-family: 'Caveat', cursive;
+}
+
+.mainContentContainer{
+    background-image: url(bg.jpg);
+}
+
+.internalContainerHome{
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.internalContainerHome h1, .internalContainerHome h2, .internalContainerHome h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mainHeading{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+}
+
+.mainContentContainerMore{
+    background-image: url(bg2.jpg);
+}
+
+.internalContainerMore{
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.MoreMangaContent{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MoreMangaContent h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.MoreMangaContent h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.MoreMangaContent img{
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+}
+
+.carouselImage{
+    width: auto;
+    height: 80vh;
+    margin: auto;
+}
+  
+.carouselImage:hover{
+    opacity: 0.1;
+}
+
+.carouselImage:hover + .carousel-caption{
+    display: block;
+}
+
+.carousel-caption{
+    display: none;
+}
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+}
